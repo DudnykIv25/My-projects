@@ -1,0 +1,73 @@
+* {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: blue;
+}
+
+div>h1>a {
+    color: crimson;
+}
+
+.asa {
+    color: blueviolet;
+    font-size: 50px;
+}
+
+/* Списки */
+#Item {
+    color: burlywood;
+    font-size: 40px;
+}
+
+li[class] {
+    font-size: 200%;
+    color: turquoise;
+    background-color: brown;
+}
+
+
+div>h2 {
+    font-size: 35px;
+    color: forestgreen;
+}
+
+.h2-text span {
+    color: chartreuse;
+}
+
+h1+p {
+    color: darkcyan;
+    font-size: 25px;
+}
+
+/* kjhgawdwhawdkladlwkakdlalkdadnakldnklafakljfakljf */
+div>div>ol :first-child {
+    color: yellow;
+    font-size: 40px;
+    background-color: black;
+    width: 300px;
+}
+
+div>div>ol :nth-child(2) {
+    color: black;
+    font-size: 40px;
+    background-color: green;
+    width: 300px;
+}
+
+div>div>ol :last-child {
+    color: black;
+    font-size: 40px;
+    background-color: greenyellow;
+    width: 300px;
+}
+
+div>div>p {
+    color: cornflowerblue;
+    font-size: 0px;
+}
