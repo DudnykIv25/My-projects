@@ -1,0 +1,142 @@
+.display-b {
+    background-color: darkgoldenrod;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.display-in {
+    background-color: violet;
+    width: 90px;
+    display: inline;
+    border: 2px solid black;
+    box-sizing: content-box;
+}
+
+.display-f {
+    background-color: tomato;
+    display: flex;
+    width: 100px;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
+.column-left {
+    background-color: thistle;
+    float: left;
+    width: 200px;
+    clear: right;
+}
+
+.list-right {
+    background-color: teal;
+    float: right;
+    width: 100px;
+    clear: left;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.container {
+    background-color: slateblue;
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+}
+
+.container-2 {
+    background-color: skyblue;
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.container-3 {
+    background-color: salmon;
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+}
+
+.container-4 {
+    background-color: darkblue;
+    color: red;
+    border: 3px solid black;
+    width: 600px;
+    height: 300px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+/* cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc */
+
+.container-5 {
+    position: relative;
+    background-color: yellowgreen;
+    padding: 50px;
+    width: 600px;
+}
+
+.position {
+    width: 60px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: burlywood;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pos-2 {
+    background-color: cornflowerblue;
+    position: relative;
+    top: 90px;
+    right: 50px;
+}
+
+.pos-3 {
+    background-color: crimson;
+    width: 60px;
+    height: 100px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    top: 50px;
+
+
+}
+
+.pos-4 {
+    background-color: cyan;
+    width: 60px;
+    height: 100px;
+    margin-top: 30px;
+    top: 300px;
+    position: sticky;
+
+}
+
+.pos-5 {
+    background-color: slateblue;
+    width: 60px;
+    height: 100px;
+    margin-top: 30px;
+    top: 300px;
+    position: sticky;
+}
+
+.pos-6 {
+    background-color: teal;
+    width: 60px;
+    height: 100px;
+    margin-top: 30px;
+    top: 300px;
+    position: sticky;
+}
