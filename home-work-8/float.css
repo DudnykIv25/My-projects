@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 100%;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.block {
+    width: 150px;
+    height: 80px;
+    background-color: black;
+    margin: 5px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.left__big {
+    height: 165px;
+    width: 200px;
+    float: inline-end;
+}
+
+.big_block{
+margin-left: 700px;
+}
+
+.couple_block{
+    margin-right: 790px;
+}
+
