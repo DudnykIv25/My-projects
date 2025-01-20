@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Site</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item"><a href="#">Главная</a></li>
+                    <li class="navbar__item"><a href="#about">Об авторе</a></li>
+                    <li class="navbar__item"><a href="#projects">Работы</a></li>
+                    <li class="navbar__item"><a href="#process">Процесс</a></li>
+                    <li class="navbar__item"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="description">
+                <h1 class="description__title">Дизайн и верстка</h1>
+                <p class="description__about_par">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                    вэб-дизайне. Lorem Ipsum является
+                    стандартной "рыбой" для
+                    текстов на латинице с начала XVI века.</p>
+                <button class="description__button">Написать мне</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container">
+            <div class="light-block" id="about">
+                <h2 class="light-block__header">Обо мне</h2>
+                <p class="light-block__text paragraph">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                    вэб-дизайне.
+                    Lorem Ipsum является стандартной
+                    "рыбой" для текстов на латинице с начала XVI века.</p>
+            </div>
+        </div>
+        <div class="dark-container">
+            <div class="container ">
+                <ul class="work__list">
+                    <li class="work__list__item">
+                        <svg class="work__icon" width="50" height="50">
+                            <use href="./assets/symbol-defs.svg#icon-list"></use>
+                        </svg>
+                        <div class="work__list__item__text">
+                            <p class="work__first__text">40+</p>
+                            <p class="work__second__text">проектов</p>
+                        </div>
+                    </li>
+                    <li class="work__list__item">
+                        <svg class="work__icon" width="50" height="50">
+                            <use href="./assets/symbol-defs.svg#icon-list"></use>
+                        </svg>
+                        <div class="work__list__item__text">
+                            <p class="work__first__text">40+</p>
+                            <p class="work__second__text">проектов</p>
+                        </div>
+                    </li>
+                    <li class="work__list__item">
+                        <svg class="work__icon" width="50" height="50">
+                            <use href="./assets/symbol-defs.svg#icon-list"></use>
+                        </svg>
+                        <div class="work__list__item__text">
+                            <p class="work__first__text">40+</p>
+                            <p class="work__second__text">проектов</p>
+                        </div>
+                    </li>
+                    <li class="work__list__item">
+                        <svg class="work__icon" width="50" height="50">
+                            <use href="./assets/symbol-defs.svg#icon-list"></use>
+                        </svg>
+                        <div class="work__list__item__text">
+                            <p class="work__first__text">40+</p>
+                            <p class="work__second__text">проектов</p>
+                        </div>
+                    </li>
+                    <li class="work__list__item" i>
+                        <svg class="work__icon" width="50" height="50">
+                            <use href="./assets/symbol-defs.svg#icon-list"></use>
+                        </svg>
+                        <div class="work__list__item__text">
+                            <p class="work__first__text">40+</p>
+                            <p class="work__second__text">проектов</p>
+                        </div>
+                    </li>
+                    <li class="work__list__item" i>
+                        <svg class="work__icon" width="50" height="50">
+                            <use href="./assets/symbol-defs.svg#icon-list"></use>
+                        </svg>
+                        <div class="work__list__item__text">
+                            <p class="work__first__text">40+</p>
+                            <p class="work__second__text">проектов</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="working" id="process">
+                <div class="light-block">
+                    <h2 class="light-block__header">Как я работаю</h2>
+                    <p class="working__text light-block__text paragraph">Lorem Ipsum - это текст-"рыба", часто
+                        используемый в
+                        печати и
+                        вэб-дизайне.
+                        Lorem Ipsum является стандартной
+                        "рыбой" для текстов на латинице с начала XVI века.</p>
+                </div>
+                <div class="working__video">
+
+                    <iframe class="video" width="1110" height="619"
+                        src="https://www.youtube.com/embed/IOjzS0axfMw?si=nUdCBWNk1YzQDth0" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="dark-container" id="contacts">
+            <div class="copyright container">
+                <h3 class="copyright__header">Иванов Иван</h3>
+                <span class="copyright__sign">(с) 2018. Все права защищены.</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
